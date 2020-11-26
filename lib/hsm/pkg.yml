@@ -1,0 +1,8 @@
+pkg.name: sys/hsm
+pkg.description: Hierarchical state machine
+pkg.keywords:
+    - state
+
+pkg.deps:
+    - "@apache-mynewt-core/kernel/os"
+    - "@apache-mynewt-core/hw/hal"

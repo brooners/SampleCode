@@ -1,0 +1,22 @@
+# Package: sys/cli
+
+syscfg.defs:
+    CLI_MAX_NAMESPACES:
+        description: >
+            Deprecated. Included only for compatibility
+        value: 4
+    CLI_MAX_NUM_OPTIONS:
+        description: Maximum number of option flags for any command
+        value: 4
+    CLI_MAX_NUM_ARGS:
+        description: Maximum number of arguments for any command
+        value: 8
+    CLI_HELP_ENABLE:
+        description: >
+            Enable of CLI help dialog. This can be used as a global enable by
+            namespaces.
+        value: 0
+    CLI_DEBUG_ENABLE:
+        description: >
+            Enables debug output for the CLI module
+        value: 0

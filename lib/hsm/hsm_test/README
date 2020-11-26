@@ -1,0 +1,7 @@
+This test package is intended as a limited demonstration of the Hierarchical State Machine (hsm) functionality.
+
+The functionality can be accessed via CLI by including the hsm_test package in an application and calling its hsm_test_cli_init() function.
+
+The source code for the test state machine can be found in src/hsm_test_sm.c.
+
+The test state diagram is hsm_test_graph.png.

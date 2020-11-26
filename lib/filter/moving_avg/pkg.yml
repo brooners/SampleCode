@@ -1,0 +1,7 @@
+pkg.name: lib/filter/moving_avg
+pkg.description: Widowed moving average implementation
+pkg.keywords:
+    - filter
+    - average
+
+pkg.deps:

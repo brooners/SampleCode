@@ -1,0 +1,12 @@
+pkg.name: sys/cli
+pkg.description: Command Line Interface package to aid in designing and using command utilities
+pkg.keywords:
+    - cli
+    - command
+
+pkg.deps:
+    - "@apache-mynewt-core/kernel/os"
+    - "@apache-mynewt-core/sys/shell"
+
+pkg.req_apis:
+    - console
